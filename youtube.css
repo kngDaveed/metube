@@ -1,0 +1,121 @@
+/* nav section starts */
+nav{
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* youtube div */
+.youtube{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.youtube i.fa-bars{
+    font-size: 20px;
+    padding: 0px 0px 5px 0px;
+}
+.youtube i.fa-brands{
+    font-size: 30px;
+    padding: 0px 0px 5px 20px;
+}
+.youtube h3{
+    font-weight:700;
+    letter-spacing: 0.05px;
+}
+/* youtube div ends*/
+
+/* search div */
+.search{
+    display: flex;
+    align-items: center;
+}
+input {
+    border-radius: 30px 0px 0px 30px;
+    font-size: 20px;
+    padding:6px 200px 5px 20px;
+    border: .5px solid rgb(204, 195, 195);
+}
+button{
+    margin: -20px;
+    border-radius: 0px 30px 30px 0px;
+    padding:2px 25px 3px 0px;
+    border: .5px solid rgb(204, 195, 195);
+}
+.search i{
+    font-size: 25px;
+    padding: 0px 0px 6px 50px;
+}
+/* search div ends*/
+
+/* profile div */
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 50px;
+}
+.profile i{
+    font-size: 25px;
+}
+/* profile div ends*/
+
+/* nav section starts */
+
+/* Header section starts */
+header{
+    display: flex;
+    padding: 0px 30px 0px 20px;
+    gap: 100px;
+}
+
+header i{
+    padding-right: 20px;
+}
+.fixed-nav{
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.fixed-nav .btn{
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: rgb(224, 221, 221);
+    color: black;
+}
+.fixed-nav .btna{
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: black;
+    color: #fff;
+}
+.videos-template{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 20px;
+    padding: 20px 0px;
+}
+.videos-template img{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+.videos-template i{
+    padding-left: 30px;
+}
+.videos-template h5{
+    padding-top: 10px;
+}
+.videos-template h6 i{
+    padding-left: 5px;
+}
+.videos-template h6{
+    color: darkgrey;
+}
+
+/* Header section starts */
